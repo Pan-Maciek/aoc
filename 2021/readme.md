@@ -1,10 +1,13 @@
+[Advent of Code 2021](https://adventofcode.com/2021)
+==========
 
-Each solution in different language
-* day 01 `C family meeting (C/C++)`
-* day 02 `Not only Java has Script (CoffeeScript/TypeScript)`
+| Day | Title       | Challenge        | Languages |
+| - | ----------- | ---------------- | --------- |
+| 1 | [Sonar Sweep](https://adventofcode.com/2021/day/1) | C family meeting | C/C++ |
+| 2 | [Dive!](https://adventofcode.com/2021/day/2) | Not only Java has Script | CoffeeScript/TypeScript |
+| 3 | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | Assemblers assemble! | WebAssembly/Assembly(x86_64) |
 
 Left
-* `Assemblers assemble! (x86Assembly/WebAssembly)`
 * `Memories of memory management (Rust/Zig)`
 * `Fun with functions (Haskell/OCaml)`
 * `Beam for the win (Elixir/Erlang)`
