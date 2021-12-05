@@ -3,27 +3,22 @@ import System.Environment
 import System.IO
 
 -- Board
-data Board = Board { 
-  score :: Int, rows :: [Int], cols :: [Int],
-  lookUpFn :: Int -> Maybe (Int, Int)
-} 
+data Board = Board { score :: Int, rows :: [Int], cols :: [Int], board :: [Int] } deriving (Show, Eq)
 
 createBoard :: [Int] -> Board
-createBoard board = Board (sum board) [0,0,0,0,0] [0,0,0,0,0] lookUp where
-  lookUp = boardLookUp board
-
-boardLookUp :: [Int] -> Int -> Maybe (Int, Int)
-boardLookUp board n = fmap idx2pos $ findIndex (==n) board where 
-  idx2pos idx = (idx `div` 5, idx `mod` 5)
+createBoard board = Board (sum board) [0,0,0,0,0] [0,0,0,0,0] board
 
 isWin :: Board -> Bool
 isWin (Board _ rows cols _) = any (==5) rows || any (==5) cols
 
 markBoard :: Int -> Board -> Board
-markBoard n (Board score rows cols lookUpFn) = 
-  case lookUpFn n of
-    Nothing -> Board score rows cols lookUpFn
-    Just(row, col) -> Board (score - n) (incAt row rows) (incAt col cols) lookUpFn
+markBoard n (Board score rows cols board) = 
+  case boardLookUp n of
+    Nothing -> Board score rows cols board
+    Just(row, col) -> Board (score - n) (incAt row rows) (incAt col cols) board
+  where
+    boardLookUp n = idx2pos <$> findIndex (==n) board 
+    idx2pos idx = (idx `div` 5, idx `mod` 5)
 
 -- Utility functiosn
 incAt :: Num a => Int -> [a] -> [a]
@@ -41,10 +36,11 @@ chunksOf n xs = take n xs : chunksOf n xs' where
   xs' = drop n xs
 
 -- Input parsing
+parseInput :: String -> ([Int], [Board])
 parseInput z = (rng, boards) where
   (rng_string, boards_string) = break (== '\n') z
-  rng = map read . (splitOn ',') $ rng_string :: [Int]
-  boards_numbers = map read . words $ boards_string :: [Int]
+  rng = map read . (splitOn ',') $ rng_string
+  boards_numbers = map read . words $ boards_string
   boards = map createBoard . chunksOf 25 $ boards_numbers
 
 -- Solution logic
