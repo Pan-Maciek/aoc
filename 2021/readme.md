@@ -7,7 +7,8 @@
 | 2 | [Dive!](https://adventofcode.com/2021/day/2) | Not only Java has Script | `CoffeeScript` | `TypeScript` |
 | 3 | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | Assemblers assemble! | `LLVM IR` | `x86_64 Assembly` |
 | 4 | [Giant Squid](https://adventofcode.com/2021/day/4) | Fun with functions | `Haskell` | `OCaml` |
-| 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Beauty and the beast | Python | Julia |
+| 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Beauty and the beast | `Python` | `Julia` |
+| 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | Back to the basics | `Visual Basic` | `Fortran` |
 
 Rules of the challenge
 ===
@@ -22,4 +23,4 @@ Left
 * ` (JavaScript/Lua)`
 * ` (PHP/Icon)`
 
-* `Go,Dart,Ruby,Groovy,VisualBasic/Basic,Fortran,F#,Clojure,D,R,Smalltalk,Nim`
+* `Go,Dart,Ruby,Groovy,F#,Clojure,D,R,Smalltalk,Nim`
