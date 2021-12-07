@@ -6,13 +6,13 @@ Module One
     Sub Main(args As String())
         
         If args.Length <> 1
-            Console.Error.WriteLine("Usage: ./one.out <input>\n")
+            Console.Error.WriteLine("Usage: ./one.out <input>")
             Environment.Exit(1)
         End If
         
-        Dim text As String
+        Dim text = ""
         Try
-             text = File.ReadAllText(args(0))
+            text = File.ReadAllText(args(0))
         Catch ex As Exception
             Console.Error.WriteLine(ex.Message)
             Environment.Exit(1)
@@ -48,7 +48,7 @@ Module One
             Dim state as State
             ReDim state._fishCount(8)
             For Each value In text.Split(",").Select(Function(s) Convert.ToInt32(s))
-               state._fishCount(value) += 1
+                state._fishCount(value) += 1
             Next
             return state
         End Function

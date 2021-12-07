@@ -1,2 +1,7 @@
 .vscode
 *.out
+*.o
+*.in
+Debug/
+obj/
+*.s
