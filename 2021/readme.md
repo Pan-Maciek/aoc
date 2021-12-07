@@ -4,14 +4,16 @@
 | Day | Title       | Challenge        | Part One | Part Two |
 | --- | ----------- | ---------------- | -------- | -------- |
 | 1 | [Sonar Sweep](https://adventofcode.com/2021/day/1) | C family meeting | `C` | `C++` |
-| 2 | [Dive!](https://adventofcode.com/2021/day/2) | Not only Java has Script | `CoffeeScript` | `TypeScript` |
+| 2 | [Dive!](https://adventofcode.com/2021/day/2) | Not only Java has Script! | `CoffeeScript` | `TypeScript` |
 | 3 | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | Assemblers assemble! | `LLVM IR` | `x86_64 Assembly` |
 | 4 | [Giant Squid](https://adventofcode.com/2021/day/4) | Fun with functions | `Haskell` | `OCaml` |
-| 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Beauty and the beast | `Python` | `Julia` |
-| 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | Back to the basics | `Visual Basic` | `Fortran` |
+| 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Beauty and the Beast | `Python` | `Julia` |
+| 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | Back to the Basics | `Visual Basic` | `Fortran` |
+| 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | Matrices and vectors | `R` | `Octave` |
 
-Rules of the challenge
+Rule of the challenge
 ===
+Every solution must be written in different language
 
 
 Left
@@ -23,4 +25,4 @@ Left
 * ` (JavaScript/Lua)`
 * ` (PHP/Icon)`
 
-* `Go,Dart,Ruby,Groovy,F#,Clojure,D,R,Smalltalk,Nim`
+* `Go,Dart,Ruby,Groovy,F#,Clojure,D,Smalltalk,Nim`
