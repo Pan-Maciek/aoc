@@ -3,6 +3,10 @@ one: one.hs input
 	ghc -o one.out one.hs
 	./one.out input.in
 
+two: two.ml input
+	ocamlfind ocamlopt -o two.out -linkpkg -package str two.ml
+	./two.out input.in
+
 input:
 	@cookie=`cat ../cookie`; \
 	if [ ! -f input.in ]; then\
@@ -10,4 +14,4 @@ input:
 	fi
 
 clean:
-	rm -f one.out one.hi one.o *.in
+	rm -f *.out *.hi *.o *.cm? *.in 
