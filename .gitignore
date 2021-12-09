@@ -5,3 +5,5 @@
 Debug/
 obj/
 *.s
+cookie
+*.class
