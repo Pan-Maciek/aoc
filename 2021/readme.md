@@ -10,6 +10,8 @@
 | 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | Beauty and the Beast | `Python` | `Julia` |
 | 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | Back to the Basics | `Visual Basic` | `Fortran` |
 | 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | Matrices and vectors | `R` | `Octave` |
+| 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) |  | `Java` | `C#` |
+| 9 | [Smoke Basin](https://adventofcode.com/2021/day/9) | Praise the brace | `Clojure` | `Racket` |
 
 Rule of the challenge
 ===
@@ -21,8 +23,10 @@ Left
 * `Beam for the win (Elixir/Erlang)`
 * `JVM - The new generation (Kotlin/Scala)`
 * ` (Bash/PowerShell)`
-* ` (Java/C#)`
 * ` (JavaScript/Lua)`
 * ` (PHP/Icon)`
+* ` (Smalltalk)`
+* ` (D/Nim)`
+* ` (Ruby/Groovy)`
 
-* `Go,Dart,Ruby,Groovy,F#,Clojure,D,Smalltalk,Nim`
+* `Go,Dart,F#`
