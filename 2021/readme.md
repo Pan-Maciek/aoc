@@ -12,6 +12,7 @@
 | 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | Matrices and vectors | `R` | `Octave` |
 | 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) |  | `Java` | `C#` |
 | 9 | [Smoke Basin](https://adventofcode.com/2021/day/9) | Praise the brace | `Clojure` | `Racket` |
+| 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | Beam for the win! | `Erlang` | `Elixir` |
 
 Rule of the challenge
 ===
@@ -20,7 +21,6 @@ Every solution must be written in different language
 
 Left
 * `Memories of memory management (Rust/Zig)`
-* `Beam for the win (Elixir/Erlang)`
 * `JVM - The new generation (Kotlin/Scala)`
 * ` (Bash/PowerShell)`
 * ` (JavaScript/Lua)`
@@ -29,4 +29,4 @@ Left
 * ` (D/Nim)`
 * ` (Ruby/Groovy)`
 
-* `Go,Dart,F#`
+* `Go,Dart,F#,haxe`
