@@ -36,10 +36,3 @@ defmodule Two do
 
   def main(_), do: IO.puts "Usage: ./two.out <input>"
 end
-
-
-
-# len = length result
-# IO.puts "len/2: #{floor(len/2)}"
-# # result
-# # |> Enum.map(fn line -> IO.puts "#{line}" end)
